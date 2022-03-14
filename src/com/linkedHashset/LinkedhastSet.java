@@ -16,6 +16,8 @@ public class LinkedhastSet
 		  
 		  link.remove("b");
 		  
+		  System.out.println("size of Linkedlist"+link);
+		  
 		  Iterator<String> itr=link.iterator();
 		  
 		  while(itr.hasNext())
